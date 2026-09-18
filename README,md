@@ -1,0 +1,63 @@
+# Mini URL Shortener
+
+A simple command-line URL shortener built using Python 3.
+
+## Features
+
+- Shortens long URLs and generates a 6-character short URL
+- Finds the original URL using a short URL
+- Lists all shortened URLs
+- Stores URL mappings persistently using a JSON file
+- Handles invalid URLs
+- Handles duplicate URLs
+- Handles missing short URLs
+
+## Requirements
+
+- Python 3
+- Python standard library only
+
+## How to Run
+
+Open the project folder and run:
+python main.py
+
+## Usage
+
+### 1. Shorten URL
+
+Enter a valid URL when prompted. The program generates a short URL.
+
+Example:
+
+Short URL: https://aB3xY7
+
+### 2. Find Original URL
+
+Enter the short URL to retrieve the original URL.
+
+Example:
+
+Original URL: https://example.com
+
+### 3. List URLs
+
+Displays all stored short URLs and their original URLs.
+
+Example:
+
+https://aB3xY7 -> https://example.com
+
+### 4. Exit
+
+Exit the program using the Exit option.
+
+## Data Storage
+
+URL mappings are stored in `urls.json`, so the data remains available after the program is closed.
+
+## Project Files
+
+- `main.py` - Main Python program
+- `urls.json` - Persistent URL storage
+- `README.md` - Project documentation
