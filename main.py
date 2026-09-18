@@ -9,7 +9,6 @@ try:
 except(FileNotFoundError,json.JSONDecodeError):
         urls={}
 
-print(urls)
 def shorten_url():
          print("URL SHORTNER")
          url=input('Enter URL:')
