@@ -67,7 +67,3 @@ while True:
 
 
 
-#qDw6iC ---> https://www.youtube.com/
-#MRzMJG ---> https://open.spotify.com/
-#TqlIZp ---> https://www.chess.com/home
-#j0RNPG ---> https://in.pinterest.com/homefeed/
